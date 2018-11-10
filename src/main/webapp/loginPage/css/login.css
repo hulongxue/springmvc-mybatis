@@ -1,0 +1,64 @@
+.login-box{
+	width: 400px;
+    height: 600px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.login-box .user-info {
+	padding: 0 30px;
+	width: 100%;
+}
+
+.user-pass form {
+  margin: 0;
+  padding: 0;
+  padding-right: 8px;
+}
+
+.user-name,.pass-word {
+	background: #fff;
+	display: block;
+	width: 100%;
+	padding: 12px 0;
+	border: 1px solid #d5dce5;
+	margin-bottom: 20px;
+	font-weight: normal;
+	text-indent: 23px;
+	outline: 0;
+	font-size: 1.25em;
+	*line-height: 20px;
+	border-radius:3px;
+}
+
+.logging {
+  background: #c90a16;
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  clear: both;
+  width: 100%;
+  border: solid 1px #c90000;
+  border-radius:3px;
+  box-shadow:0 0 3px #fff inset;
+  /*box-shadow:0 0 30px #e3766b inset;*/
+}
+
+
+.logging:hover {
+	background: #ba0813;
+	color: #fff;
+	text-decoration: none;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit]{
+	cursor: pointer;
+	-webkit-appearance: button;
+}

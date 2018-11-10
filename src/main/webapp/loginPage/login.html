@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<link rel="stylesheet" href="./css/login.css">
+		<script type="text/javascript" charset="utf-8" src="../common/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./js/login.js"></script>
+	</head>
+	
+	<body>
+		<div id="loginbox" class="login-box" style="display: block;">
+             <div class="user-info">
+                 <div class="user-pass">
+                     <form id="fm1" action="https://passport.csdn.net/account/verify" method="post">
+                         <input id="username" name="username" tabindex="1" placeholder="输入用户名" class="user-name" type="text" value="">
+                         <input id="password" name="password" tabindex="2" placeholder="输入密码" class="pass-word" type="password" value="" autocomplete="off">
+                         <input class="logging" accesskey="l" value="登 录" tabindex="3" type="button">
+                     </form>
+                 </div>
+             </div>
+		</div>
+	</body>
+
+</html>

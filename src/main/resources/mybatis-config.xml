@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- mybatis全局设置 -->
+	<settings>
+		<!--使用数据库自增id -->
+		<setting name="useGeneratedKeys" value="true" />
+
+		<setting name="useColumnLabel" value="true" />
+
+		<!-- 开启驼峰命名规范 -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+	<!-- 使用这个方案，可以单独指定Mapper的位置 -->
+	<!-- <mappers> <mapper resource="com/mapc/zh3demo/mapper/UserMapper.xml" 
+		/> </mappers> -->
+		
+		
+		
+    <!-- 使用下面两个个方法，Mapper.xml 文件位置必须在和其内部 <mapper namespace="">的类在一起，
+	        当然，使用注解模式的话，Mapper.xml文件就没有必要存在了 -->  
+
+	<!-- 依据 Mapper 类所在的package包路径 配置 Mapper -->
+	<!-- <mappers> <package name="com.dao."/> </mappers> -->
+
+	<!-- class 级别的指定 -->
+	<!-- <mappers>
+		<mapper class="com.dao.UserDaoMapper" />
+	</mappers>
+ -->
+
+</configuration>
