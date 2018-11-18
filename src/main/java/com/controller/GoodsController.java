@@ -11,6 +11,7 @@ import com.model.Goods;
 @RestController
 @RequestMapping("/goods")
 public class GoodsController {
+	
 	@RequestMapping("/getGoodsList")
 	public List<Goods> getGoodsList(){
 		Goods goods1 = new Goods("1", "book1", "tale book");
