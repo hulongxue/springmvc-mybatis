@@ -12,7 +12,8 @@ public class Goods {
 
 	public String description;
 	
-	public Goods(String goodsName, String description) {
+	public Goods(String goodsId, String goodsName, String description) {
+		this.goodsId = goodsId;
 		this.goodsName = goodsName;
 		this.description = description;
 	}

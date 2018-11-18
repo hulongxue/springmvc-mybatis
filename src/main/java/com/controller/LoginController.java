@@ -30,7 +30,7 @@ public class LoginController {
 		if (user != null) {
 			httpSession.setAttribute("userName", userName);
 		}
-		response.sendRedirect(request.getContextPath() + "/homePage/index.html");
+		response.sendRedirect(request.getContextPath() + "/homePage/home.html");
 //		response.setStatus(302);
 //	    response.setHeader("location",request.getContextPath() + "/homePage/index.html");
 	}

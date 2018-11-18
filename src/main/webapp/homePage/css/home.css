@@ -25,6 +25,7 @@
     line-height: 26px;  /*行距*/
     border-bottom: 1px solid #000;
     position: relative;
+    text-decoration: none;/*隐藏超廉价默认下划线*/
 }
 .selected {
 	background-color:#8e8686;
@@ -33,10 +34,10 @@ a{
     display: block;
     color:#FFF;
     font-size: 13px;
-    text-decoration: none;/*隐藏超廉价默认下划线*/
 }
 
-.goods {
+.goodsPage {
 	display: none;
     vertical-align: top;
+    width: 1100px;
 }
