@@ -16,7 +16,7 @@ import com.service.ILoginService;
 
 @Controller
 @RequestMapping("/login")
-public class loginController {
+public class LoginController {
 
 	@Autowired
 	private ILoginService implLoginService;
