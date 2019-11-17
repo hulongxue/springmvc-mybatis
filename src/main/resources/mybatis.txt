@@ -1,10 +1,10 @@
-SqlSession            ×÷ÎªMyBatis¹¤×÷µÄÖ÷Òª¶¥²ãAPI£¬±íÊ¾ºÍÊı¾İ¿â½»»¥µÄ»á»°£¬Íê³É±ØÒªÊı¾İ¿âÔöÉ¾¸Ä²é¹¦ÄÜ
-Executor              MyBatisÖ´ĞĞÆ÷£¬ÊÇMyBatis µ÷¶ÈµÄºËĞÄ£¬¸ºÔğSQLÓï¾äµÄÉú³ÉºÍ²éÑ¯»º´æµÄÎ¬»¤
-StatementHandler   ·â×°ÁËJDBC Statement²Ù×÷£¬¸ºÔğ¶ÔJDBC statement µÄ²Ù×÷£¬ÈçÉèÖÃ²ÎÊı¡¢½«Statement½á¹û¼¯×ª»»³ÉList¼¯ºÏ¡£
-ParameterHandler   ¸ºÔğ¶ÔÓÃ»§´«µİµÄ²ÎÊı×ª»»³ÉJDBC Statement ËùĞèÒªµÄ²ÎÊı£¬
-ResultSetHandler    ¸ºÔğ½«JDBC·µ»ØµÄResultSet½á¹û¼¯¶ÔÏó×ª»»³ÉListÀàĞÍµÄ¼¯ºÏ£»
-TypeHandler          ¸ºÔğjavaÊı¾İÀàĞÍºÍjdbcÊı¾İÀàĞÍÖ®¼äµÄÓ³ÉäºÍ×ª»»
-MappedStatement   MappedStatementÎ¬»¤ÁËÒ»Ìõ<select|update|delete|insert>½ÚµãµÄ·â×°£¬ 
-SqlSource            ¸ºÔğ¸ù¾İÓÃ»§´«µİµÄparameterObject£¬¶¯Ì¬µØÉú³ÉSQLÓï¾ä£¬½«ĞÅÏ¢·â×°µ½BoundSql¶ÔÏóÖĞ£¬²¢·µ»Ø
-BoundSql             ±íÊ¾¶¯Ì¬Éú³ÉµÄSQLÓï¾äÒÔ¼°ÏàÓ¦µÄ²ÎÊıĞÅÏ¢
-Configuration        MyBatisËùÓĞµÄÅäÖÃĞÅÏ¢¶¼Î¬³ÖÔÚConfiguration¶ÔÏóÖ®ÖĞ¡£
+SqlSession            ä½œä¸ºMyBatiså·¥ä½œçš„ä¸»è¦é¡¶å±‚APIï¼Œè¡¨ç¤ºå’Œæ•°æ®åº“äº¤äº’çš„ä¼šè¯ï¼Œå®Œæˆå¿…è¦æ•°æ®åº“å¢åˆ æ”¹æŸ¥åŠŸèƒ½
+Executor              MyBatisæ‰§è¡Œå™¨ï¼Œæ˜¯MyBatis è°ƒåº¦çš„æ ¸å¿ƒï¼Œè´Ÿè´£SQLè¯­å¥çš„ç”Ÿæˆå’ŒæŸ¥è¯¢ç¼“å­˜çš„ç»´æŠ¤
+StatementHandler   å°è£…äº†JDBC Statementæ“ä½œï¼Œè´Ÿè´£å¯¹JDBC statement çš„æ“ä½œï¼Œå¦‚è®¾ç½®å‚æ•°ã€å°†Statementç»“æœé›†è½¬æ¢æˆListé›†åˆã€‚
+ParameterHandler   è´Ÿè´£å¯¹ç”¨æˆ·ä¼ é€’çš„å‚æ•°è½¬æ¢æˆJDBC Statement æ‰€éœ€è¦çš„å‚æ•°ï¼Œ
+ResultSetHandler    è´Ÿè´£å°†JDBCè¿”å›çš„ResultSetç»“æœé›†å¯¹è±¡è½¬æ¢æˆListç±»å‹çš„é›†åˆï¼›
+TypeHandler          è´Ÿè´£javaæ•°æ®ç±»å‹å’Œjdbcæ•°æ®ç±»å‹ä¹‹é—´çš„æ˜ å°„å’Œè½¬æ¢
+MappedStatement   MappedStatementç»´æŠ¤äº†ä¸€æ¡<select|update|delete|insert>èŠ‚ç‚¹çš„å°è£…ï¼Œ 
+SqlSource            è´Ÿè´£æ ¹æ®ç”¨æˆ·ä¼ é€’çš„parameterObjectï¼ŒåŠ¨æ€åœ°ç”ŸæˆSQLè¯­å¥ï¼Œå°†ä¿¡æ¯å°è£…åˆ°BoundSqlå¯¹è±¡ä¸­ï¼Œå¹¶è¿”å›
+BoundSql             è¡¨ç¤ºåŠ¨æ€ç”Ÿæˆçš„SQLè¯­å¥ä»¥åŠç›¸åº”çš„å‚æ•°ä¿¡æ¯
+Configuration        MyBatisæ‰€æœ‰çš„é…ç½®ä¿¡æ¯éƒ½ç»´æŒåœ¨Configurationå¯¹è±¡ä¹‹ä¸­ã€‚

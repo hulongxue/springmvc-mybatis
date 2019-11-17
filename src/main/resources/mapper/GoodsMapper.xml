@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.GoodsDaoMapper">
+
+	<!-- 表字段显式 -->
+	<sql id="goodsTableColumns">
+		u.goodsId AS "goodsId",
+		u.goodsName AS "goodsName",
+		u.description AS "description"
+	</sql>
+
+	<resultMap id="GoodsListResultMap" type="com.model.Goods">
+		<result column="goodsId" property="goodsId" />
+		<result column="goodsName" property="goodsName" />
+		<result column="description" property="description" />
+	</resultMap>
+
+	<!-- 搜索多条，返回 List<HashMap<String,Object>>,入参为list -->
+	<select id="getGoodsList" resultMap="GoodsListResultMap">
+		SELECT
+		<include refid="goodsTableColumns" />
+		FROM goods u
+	</select>
+
+	<select id="getGoodsDetail" resultMap="GoodsListResultMap">
+		SELECT
+		<include refid="goodsTableColumns" />
+		FROM goods u
+	</select>
+</mapper>

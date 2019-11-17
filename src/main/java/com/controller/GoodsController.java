@@ -1,26 +1,33 @@
 package com.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.model.Goods;
+import com.service.IGoodsService;
 
 @RestController
 @RequestMapping("/goods")
 public class GoodsController {
-	
+
+	@Resource
+	public IGoodsService goodsService;
+
 	@RequestMapping("/getGoodsList")
-	public List<Goods> getGoodsList(){
-		Goods goods1 = new Goods("1", "book1", "tale book");
-		Goods goods2 = new Goods("1", "book2", "tale book");
-		List<Goods> list = new ArrayList<Goods>(8);
-		list.add(goods1);
-		list.add(goods2);
-		return list;
+	public List<Goods> getGoodsList() {
+		List<Goods> goodsList = goodsService.getGoodsList();
+		return goodsList;
 	}
 
+	@RequestMapping("/getGoodsDetail")
+	public Goods getGoodsDetail(@RequestParam(name = "goodsId") String goodsId) {
+		Goods goods = goodsService.getGoodsDetail(goodsId);
+		return goods;
+	}
 
 }

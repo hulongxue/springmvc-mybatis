@@ -21,7 +21,7 @@ public class LoginController {
 	@Autowired
 	private ILoginService implLoginService;
 
-	// Ó³ÉäÒ»¸öaction
+	// æ˜ å°„ä¸€ä¸ªaction
 	@RequestMapping("/index")
 	public void index(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession,
 			@RequestParam String userName, @RequestParam String password) throws IOException {

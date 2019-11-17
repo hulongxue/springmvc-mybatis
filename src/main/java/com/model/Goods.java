@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Goods {
 	
-	public String goodsId;
+	public int goodsId;
 	
 	public String goodsName;
 	
@@ -12,17 +12,17 @@ public class Goods {
 
 	public String description;
 	
-	public Goods(String goodsId, String goodsName, String description) {
+	public Goods(Integer goodsId, String goodsName, String description) {
 		this.goodsId = goodsId;
 		this.goodsName = goodsName;
 		this.description = description;
 	}
 	
-	public String getGoodsId() {
+	public int getGoodsId() {
 		return goodsId;
 	}
 
-	public void setGoodsId(String goodsId) {
+	public void setGoodsId(int goodsId) {
 		this.goodsId = goodsId;
 	}
 

@@ -18,19 +18,15 @@
 	<!-- 使用这个方案，可以单独指定Mapper的位置 -->
 	<!-- <mappers> <mapper resource="com/mapc/zh3demo/mapper/UserMapper.xml" 
 		/> </mappers> -->
-		
-		
-		
-    <!-- 使用下面两个个方法，Mapper.xml 文件位置必须在和其内部 <mapper namespace="">的类在一起，
-	        当然，使用注解模式的话，Mapper.xml文件就没有必要存在了 -->  
+
+
+
+	<!-- 使用下面两个个方法，Mapper.xml 文件位置必须在和其内部 <mapper namespace="">的类在一起， 当然，使用注解模式的话，Mapper.xml文件就没有必要存在了 -->
 
 	<!-- 依据 Mapper 类所在的package包路径 配置 Mapper -->
 	<!-- <mappers> <package name="com.dao."/> </mappers> -->
 
 	<!-- class 级别的指定 -->
-	<!-- <mappers>
-		<mapper class="com.dao.UserDaoMapper" />
-	</mappers>
- -->
+	<!-- <mappers> <mapper class="com.dao.UserDaoMapper" /> </mappers> -->
 
 </configuration>
