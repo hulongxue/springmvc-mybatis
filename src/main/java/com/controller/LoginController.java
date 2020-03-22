@@ -29,8 +29,8 @@ public class LoginController {
 		System.out.println("######index######");
 		if (user != null) {
 			httpSession.setAttribute("userName", userName);
+			response.sendRedirect(request.getContextPath() + "/homePage/home.html?userName="+userName);
 		}
-		response.sendRedirect(request.getContextPath() + "/homePage/home.html");
 //		response.setStatus(302);
 //	    response.setHeader("location",request.getContextPath() + "/homePage/index.html");
 	}

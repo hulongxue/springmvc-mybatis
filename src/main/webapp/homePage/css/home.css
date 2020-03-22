@@ -1,18 +1,29 @@
+#header {
+	width: 100%;
+	background-color: #999;
+}
+
+#header .userInfo {
+	float: right;
+	padding-right: 200px;
+}
+
 #menu{
     width: 15%;
     height: 60%;
-    background-color: #000;
+    color: #636363;
     display: inline-block;
+    margin-top: 20px;
 }
 #menu ul{
     margin: 0px;
     padding-left:0;
     text-align:left;
-    list-style: none;/* Òþ²ØÄ¬ÈÏÁÐ±í·ûºÅ*/
+    list-style: none;/* ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½*/
 }
 #menu ul li{
     height: 40px;
-    line-height: 26px;  /*ÐÐ¾à*/
+    line-height: 26px;  /*ï¿½Ð¾ï¿½*/
     border-bottom: 1px solid #000;
     position: relative;
 }
@@ -22,17 +33,17 @@
 #menu ul li a{
     height: 40px;
     padding-left: 10px;
-    line-height: 26px;  /*ÐÐ¾à*/
+    line-height: 26px;  /*ï¿½Ð¾ï¿½*/
     border-bottom: 1px solid #000;
     position: relative;
-    text-decoration: none;/*Òþ²Ø³¬Á®¼ÛÄ¬ÈÏÏÂ»®Ïß*/
+    text-decoration: none;/*ï¿½ï¿½ï¿½Ø³ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Â»ï¿½ï¿½ï¿½*/
 }
 .selected {
 	background-color:#8e8686;
 }
 a{
     display: block;
-    color:#FFF;
+    color:#333;
     font-size: 13px;
 }
 

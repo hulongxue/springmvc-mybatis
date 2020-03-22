@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import com.model.User;
 
 /**
- * DAO接口,mybatis动态完成Impl
+ * DAO鎺ュ彛,mybatis鍔ㄦ�佸畬鎴怚mpl
  */
 public interface  UserDaoMapper {
 
